@@ -63,7 +63,7 @@ main{
 
 .landing_page_section :is(img){
     width: 38%;
-    height: 500px;
+    height: 85%;
     border-radius: 15px;
     margin-left: 50px;
 }
@@ -103,7 +103,7 @@ button{
 /* The footer Section */
 
 footer{
-    padding: 20px;
+    padding: 20px 30px;
     background-color: black;
     color: white;
 }
@@ -117,3 +117,11 @@ display: block;
     margin-top: 5px;
 }
 
+
+.icons_container i{
+    font-size: 1.5rem;
+}
+
+.fa-square-instagram{
+    margin-left:10px;
+}
