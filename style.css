@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+header{
+    padding: 15px 15px 0px 15px;
+    background-color: rgb(69, 67, 67);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* The logo section */
+.logo_container span{
+    color: white;
+}
+#logo_alvin{
+    color: greenyellow;
+    margin-right: 10px;
+}
+
+/* The nav links section */
+
+.nav_links_container {
+    display: flex;
+    gap: 30px;
+}
+
+.links{
+    color: white;
+    padding-bottom: 8px;
+
+}
+
+.link1{
+    border-bottom: 2px solid greenyellow;
+    border-radius: 8px;
+}
+
+/* The main section */
+
+main{
+    padding: 15px;
+    height: 80vh;
+    margin-top: 20px;
+    
+}
+
+.landing_page_section{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.landing_page_section :is(img){
+    width: 38%;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.landing_page_section :is(article){
+    width: 40%;
+    margin-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+
+.landing_page_section h1{
+    max-width: 90%;
+    font-size:1.3rem;
+}
+
+.landing_page_section span{
+    color: rgb(134, 197, 39);
+    font-size:1.3rem;
+}
+
+.landing_page_section p{
+    max-width: 95%;
+    line-height: 1.2;
+}
+
+button{
+    width: fit-content;
+    padding:4px 20px;
+    background-color: black;
+    color: greenyellow;
+}
+
+/* The footer Section */
+
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer article{
+display: block;
+
+}
+
+.icons_container{
+    margin-top: 5px;
+}
+
