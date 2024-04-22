@@ -107,7 +107,9 @@ footer{
     background-color: black;
     color: white;
 }
-
+footer a{
+    color: white;
+}
 footer article{
 display: block;
 
